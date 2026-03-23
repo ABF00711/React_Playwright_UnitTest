@@ -1,0 +1,55 @@
+# Dependencies (react-demo, server, automation)
+node_modules/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and debug
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Build outputs
+dist/
+dist-ssr/
+build/
+*.tsbuildinfo
+
+# Vite / local overrides
+*.local
+
+# Test artifacts — Playwright (any package)
+test-results/
+playwright-report/
+blob-report/
+
+# Test artifacts — Allure & Cucumber (automation/)
+automation/allure-results/
+automation/allure-report/
+automation/cucumber-report.html
+automation/cucumber-report.json
+
+# Coverage
+coverage/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors (keep shared VS Code recommendations if added)
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Optional local tooling
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
